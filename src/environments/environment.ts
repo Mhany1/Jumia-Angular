@@ -4,15 +4,13 @@
 
 export const environment = {
   production: false,
-  firebase:{
-    apiKey: "AIzaSyBYAZeZZDiY1aKmOWKVd12R89OClCY5DqI",
-    authDomain: "jumia-ef19c.firebaseapp.com",
-    databaseURL: "https://jumia-ef19c-default-rtdb.firebaseio.com",
-    projectId: "jumia-ef19c",
-    storageBucket: "jumia-ef19c.appspot.com",
-    messagingSenderId: "836291362707",
-    appId: "1:836291362707:web:8007566a38ef8ca120b266",
-    measurementId: "G-Q5WE3VBYG7"
+  firebase: {
+    apiKey: "AIzaSyCi5vggcJ7_JTzxG1PRbZv5vgRJM-MDBG0",
+    authDomain: "e-commerce-c0582.firebaseapp.com",
+    projectId: "e-commerce-c0582",
+    storageBucket: "e-commerce-c0582.appspot.com",
+    messagingSenderId: "214289191794",
+    appId: "1:214289191794:web:b5c932deeab851ab5543eb"
   }
 };
 
