@@ -30,7 +30,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { HttpClientModule } from '@angular/common/http';
 import { AngularFireModule } from '@angular/fire/compat';
-import { environment } from 'src/environments/environment';
+// import { environment } from 'src/environments/environment';
 import { FilterPipeModule } from 'ngx-filter-pipe';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
@@ -38,6 +38,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { environment } from 'src/environments/environment.prod';
 
 
 @NgModule({
